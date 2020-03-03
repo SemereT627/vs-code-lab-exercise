@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semere Talegngeta</title>
+    <link rel="icon" href="http://icons.iconarchive.com/icons/icons-land/vista-hardware-devices/256/Portable-Computer-icon.png">
 </head>
 <body>
     <!-- we are beginning -->
     <!-- Navigation -->
     <hr>
         <a href="index.html" target="_blank">Home</a> |
-        <a href="contact.html" target="_blank">Contact</a>
+        <a href="contact.html" target="_blank">Contact</a> |
+        <a href="gallery.html" target="_blank">Gallery</a>
     <hr>
 
 
@@ -18,7 +20,7 @@
     <table cellspacing = "10">
         <tr>
             <td>
-                <img src="/asset/image/Good-Laptop-Wallpapers-037.jpg" width="300" alt="Semere Talegngeta">
+                <img src="/asset/image/photo_2020-01-15_12-40-53.jpg" width="300" alt="Semere Talegngeta">
             </td>
             <td>
                 <h1>Semere Talegngeta</h1>
@@ -27,6 +29,65 @@
             </td>
         </tr>
     </table>
+    <hr>
+    <form method="POST" action="mailto:semeretalegn627@gmail.com" enctype="utf-8">
+        <h3>Leave your comment here</h3>
+        <!-- contact form -->
+        <table>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td> <input type="text" name="fName" id="fname" pattern="[a-z]{4-8}"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td> <input type="text" name="lName" id="lname" pattern="[a-z]{4-8}"></td>
+            </tr>
+            
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="male" id="gender">Male&nbsp;&nbsp;<input type="radio" name="female" id="gender">Female</td>
+            </tr>
+            <tr><td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number (+)</label></td>
+                <td><input type="tel" name="tel1" pattern="[0-9]{4}" placeholder="###" aria-label="3-digit area code" size = "2" id="phone">
+                    <input type="tel" name="tel2" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size = "2" id="phone">
+                    <input type="tel" name="tel3" pattern="[0-9]{6}" placeholder="######" aria-label="6-digit area code" size = "3" id="phone">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td> <input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option >Asia</option>
+                        <option >Ethiopia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="detail">What do you say?</label></td>
+                <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="username">UserName</label></td>
+                <td><input type="text" name="username" id="username" required size="40"
+                    pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" placeholder="user name must be lower case and 4-8 charachters"></td>
+            </tr>
+                
+                <tr>
+                <td><input type="submit" value="Submit"></td></tr>
+            
+        </table>        
+    </form>
     
     
    
