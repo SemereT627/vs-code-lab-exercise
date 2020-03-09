@@ -20,7 +20,7 @@
     <table cellspacing = "10">
         <tr>
             <td>
-                <img src="https://instagram.fadd1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/70707652_986373308374650_4171729385604251648_n.jpg?_nc_ht=instagram.fadd1-1.fna.fbcdn.net&_nc_ohc=DlukebKRUjUAX_aT7r3&oh=bdf9ea71ea41faf1bb582c595e2f3f06&oe=5E93FB8C" width="300" alt="Semere Talegngeta">
+                <img src="https://sn3301files.storage.live.com/y4pWUAduF7YejjDKZ3gpVQWKfinEovZCTJQxs97grqVfuWc1iVDl-HvBuRxVlTZmhDYYqgAUtbAKcmFIfwWmhzCKyAIoI-EfMle7aun1nuQN8ie6rMQe2iyENvKNvmRQ84oKXhejNFsv83rl1rJ9djsOOEKFS9qtNiC1C01kf00dhUliikMFu36KbsdYZVFPFG1cpgPB4mIFkMNMojQKVGFxj1Kw_AVn5RPDslzT4UFbqs/photo_2020-03-09_23-41-11.jpg?psid=1&width=655&height=655&cropMode=center" width="300" alt="Semere Talegngeta">
             </td>
             <td>
                 <h1>Semere Talegngeta</h1>
@@ -31,21 +31,33 @@
     </table>
     <hr>
     <form method="POST" action="mailto:semeretalegn627@gmail.com" enctype="utf-8">
-        <h3>Leave your comment here</h3>
+        
         <!-- contact form -->
         <table>
             <tr>
-                <td><label for="fname">First Name</label></td>
-                <td> <input type="text" name="fName" id="fname" pattern="[a-z]{4-8}"></td>
+                <td rowspan="13"><div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.embedgooglemap.org"></a>
+                    </div>
+                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
+            </tr>
+            <tr><td><h2>Leave your comment here</h2></td></tr>
+            <tr> <td><label for="fname">First Name</label></td>
+                <td>
+                    <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8" placeholder="First name">
+                </td>
             </tr>
             <tr>
                 <td><label for="lname">Last Name</label></td>
-                <td> <input type="text" name="lName" id="lname" pattern="[a-z]{4-8}" title=""</td>
+                    <td><input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8" placeholder="Last name"></td>
             </tr>
-            
             <tr>
                 <td><label for="gender">Gender</label></td>
-                <td><input type="radio" name="male" id="gender">Male&nbsp;&nbsp;<input type="radio" name="female" id="gender">Female</td>
+                <td>
+                    <input type="radio" name="gender" id="male">Male
+                    <input type="radio" name="gender" id="female">Female
+                </td>
             </tr>
             <tr><td><label for="dob">Date of Birth</label></td>
                 <td><input type="date" name="" id="dob"></td>
@@ -70,6 +82,8 @@
                     <select name="country" id="country">
                         <option >Asia</option>
                         <option >Ethiopia</option>
+
+
                     </select>
                 </td>
             </tr>
@@ -80,7 +94,7 @@
             <tr>
                 <td><label for="username">UserName</label></td>
                 <td><input type="text" name="username" id="username" required size="40"
-                    pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" placeholder="user name must be lower case and 4-8 charachters"></td>
+                    pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" placeholder="letters must be lower case and 4-8 charachters"></td>
             </tr>
                 
                 <tr>
@@ -89,14 +103,6 @@
         </table>        
     </form>
     <hr>
-    <div class="mapouter">
-        <div class="gmap_canvas">
-            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-            <a href="https://www.embedgooglemap.org"></a>
-        </div>
-        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
     
-   
-
 </body>
 </html>
