@@ -1,78 +1,27 @@
 body{
-    background-color: skyblue;
-    border: solid lightgray 1px ;
-    margin: 10px 0;
+    background-color: rgb(120,150,180);
 }
 header{
-    background-color: rgba(119, 90, 90, 0.6);
-    position: fixed;
+    position: relative;
     width: 100%;
-    
-    
+    height: 10%;
+    border: 1px solid black;
+    background-color: rgb(20, 40, 100);
 }
-/*Targeting our blog*/
-section{
-    margin-top: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5px 30px;    
+nav{
+    width: 100%;
+    height: 10%;
 }
-article{
-    text-align: justify;
-    font-size: 15px;
-    line-height: 15px;
+nav ul li{
+   display: inline-block;   
 }
-.title{
-    font-size: 23px;
-    font-weight: bold; 
-}
-.date{
-    font-style: italic;
-    font-size: 15px;
-    text-transform: uppercase;
-}
-
-/*Navigation*/
-nav>ul>li{
-    display: inline-block;
-    padding: 10px 3px;
-    font-size: 20px;
-}
-nav>ul>li>a{
+nav ul li a{
     text-decoration: none;
+    background-color: aqua;
 }
-nav>ul>li:link{
-    background-color: blue;    
+nav>ul>li{
+    padding-left: 2%;
 }
-nav>ul>li:visited{
-    background-color: lime;
-}
-nav>ul>li:hover{
-    background-color: lightgreen;
-}
-nav>ul>li:active{
-    background-color: yellow;
-}
-
-img{
-    float: left;
-    border-radius: 100%;
-    width: 400px;
-    height: 400px;
-    margin: 0 20px;
-}
-#clear{
-    clear: left;
-}
-
-
-
-/*This is testing width property which is font size*/
-
-#test{
-    font-size: 20px;
-    color: red;
-}
-
-p{
-    font-size: 100%;
+#content{
+        
 }

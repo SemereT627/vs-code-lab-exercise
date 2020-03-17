@@ -1,0 +1,22 @@
+table{
+    position: fixed;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+td{
+    width: 90px;
+    height: 90px;
+}
+
+.hbar{
+
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.vbar{
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
