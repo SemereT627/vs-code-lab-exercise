@@ -3,15 +3,16 @@
     position: absolute;
     width: 100%;
     height: 30%;
-    border: 1px solid black;
+    
+}
 
+.Ethiopia #header{
+    text-align: center;
 }
 .Ethiopia{
     width: 20%;
     float: left;
     height: 100%;
-    border: 1px solid darkblue;
-    
 }
 .Ethiopia>#green{
     width: 100%;
@@ -28,12 +29,15 @@
     height: 33.3%;
     background-color: red;
 }
+.Ethiopia img{
+    width: 25%;
+    margin-left: 36%;
+}
 
 .Cameroon{
     position: relative;
     width: 20%;
     height: 100%;
-    border: 1px solid black;
     float: left;
     left: 1%;
     
@@ -56,6 +60,13 @@
     height: 100%;
     background-color: yellow;
 }
+.Cameroon img{
+    width: 100%;
+    height: 40%;
+    
+    margin-top: 60%;
+}
+
 
 .Benin{
     position: relative;
@@ -63,7 +74,6 @@
     float: left;
     width: 20%;
     height: 100%;
-    border: 1px solid black;
     left: 2%;
 }
 .Benin>#green{
@@ -93,7 +103,6 @@
     float: left;
     width: 20%;
     height: 100%;
-    border: 1px solid black;
     left: 3%;
 
 }
@@ -101,20 +110,258 @@
     float: left;
     border-bottom: 85px solid transparent;
     border-top: 0 solid transparent;
-    border-right: 248px solid green;
+    border-right: 220px solid green;
 }
 .Eritrea>#red{
     float: left;
     position: absolute;
-    border-bottom: 90px solid transparent;
     border-top: 85px solid transparent;
-    border-left: 248px solid red;
+    border-bottom: 70px solid transparent;
+    border-left: 220px solid red;
 }
 .Eritrea>#blue{
     top:85px;
     float: left;
     position: absolute;
     border-bottom: 0px solid transparent;
-    border-top: 90px solid transparent;
-    border-right: 248px solid rgb(20, 50, 255);
+    border-top: 70px solid transparent;
+    border-right: 220px solid rgb(20, 50, 255);
+}
+.header{
+    margin-top: 15%;
+    position: relative;
+}
+.header div{
+    display: inline-block;
+    
+}
+
+#camh{
+    margin-left: 16%;
+}
+#benh{
+    margin-left: 15%;
+}
+#erih{
+    margin-left: 17%;
+}
+
+
+
+
+
+
+#europeh{
+    margin-top: 20%;
+}
+.europe{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    
+}
+#Poland{
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
+#Poland>#red{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+#Spain{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+
+#Spain>.red{
+    width: 100%;
+    height: 25%;
+    background-color: red;
+}
+#Spain>#yellow{
+
+    width: 100%;
+    height: 50%;
+    
+    background-color: yellow;
+}
+
+#Belgium{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+
+#Belgium>#black{
+    width: 33.3%;
+    height: 100%;
+    background-color: black;
+    float: left;
+}
+#Belgium>#yellow{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    background-color: yellow;
+}
+#Belgium>#red{
+    width: 33.4%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+
+#Czech{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;
+}
+#Czech>.blue{
+    float: left;
+    position: absolute;
+    width: 33.3%;
+    height: 0%;
+    border-top: 75px solid transparent;
+    border-bottom: 82px solid transparent;
+    border-left: 95px solid blue;
+}
+#Czech>.red{
+    float: left;
+    position: absolute;
+    width: 11.8%;
+    height: 50%;
+    border-left: 90px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 80px solid red;
+}
+
+#spah{
+    margin-left: 17%;
+}
+#belh{
+    margin-left: 17%;
+}
+#czeh{
+    margin-left: 16%;
+}
+
+
+#southamericah{
+    margin-top: 20%;
+}
+
+.southamerica{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+}
+#Colombia{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+}
+#Colombia>#yellow{
+    width: 100%;
+    height: 50%;
+    background-color: yellow;   
+}
+#Colombia>#blue{
+    width: 100%;
+    height: 25%;
+    background-color: blue;   
+}
+#Colombia>#red{
+    width: 100%;
+    height: 25%;
+    background-color: red;   
+}
+
+#Argentina{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;
+}
+#Argentina>.blue{
+    width: 100%;
+    height: 33.3%;
+    background-color: skyblue;
+}
+#Argentina>#white{
+    width: 100%;
+    height: 33.3%;
+    background-color: white;
+}
+
+#Mexico{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;
+}
+
+#Mexico>#green{
+    width: 33.3%;
+    height: 100%;
+    background-color: green;
+    float: left;
+}
+
+#Mexico>#white{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+#Mexico>#red{
+    width: 33.3%;
+    height: 100%;
+    float: left;
+    background-color: red;
+}
+
+#Chile{
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: 1px solid black;
+    margin-left: 1%;
+}
+#Chile>.blue{
+    width: 40%;
+    height: 50%;
+    background-color: blue;
+    float: left;
+}
+#Chile>.white{
+    width: 60%;
+    height: 50%;
+    background-color: white;
+}
+#Chile>.red{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+}
+
+#argh{
+    margin-left: 15%;
+}
+#mexh{
+    margin-left: 15%;
+}
+#chih{
+    margin-left: 16%;
 }

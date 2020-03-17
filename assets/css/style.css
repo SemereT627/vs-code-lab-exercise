@@ -1,24 +1,47 @@
+*{
+    border: 0;
+    padding: 0;   
+}
 body{
-    background-color: rgb(120,150,180);
+    background-color:rgb(81, 174, 170);
 }
 header{
-    position: relative;
     width: 100%;
-    height: 10%;
+    height: 3em;
+    font-size: 1em;
     border: 1px solid black;
-    background-color: rgb(20, 40, 100);
+    background: rgb(14, 27, 116);
+    
 }
-nav{
-    width: 100%;
-    height: 10%;
+header ul li{
+    display: inline-block;
 }
-nav ul li{
-   display: inline-block;   
-}
-nav ul li a{
+header a{
     text-decoration: none;
-    background-color: aqua;
+    color: rgb(78, 69, 241);
+    margin-left: 20px;
+    padding: 0px 20px;
 }
-nav>ul>li{
-    padding-left: 2%;
+
+header>nav>ul>li{
+    float: left;
+}
+
+#questions{
+    padding-left: 100px;
+}
+
+header a:link{
+    background-color: rgb(18, 102, 151);
+    border-radius: 3px;
+}
+header a:visited{
+    color: rgb(18, 59, 134);
+}
+header a:hover{
+    background-color:rgb(191, 204, 8);
+    border: 1px solid rgba(76, 187, 42, 0.966);
+}
+header a:active{
+    background-color: rgb(24, 156, 24);
 }
