@@ -8,10 +8,10 @@ body{
 header{
     width: 100%;
     height: 3em;
-    font-size: 1em;
+    font-size: 1rem;
+    margin-bottom: 10px;
     border: 1px solid black;
     background: rgb(14, 27, 116);
-    
 }
 header ul li{
     display: inline-block;
@@ -22,15 +22,12 @@ header a{
     margin-left: 20px;
     padding: 0px 20px;
 }
-
 header>nav>ul>li{
     float: left;
 }
-
 #questions{
     padding-left: 100px;
 }
-
 header a:link{
     background-color: rgb(18, 102, 151);
     border-radius: 3px;
@@ -57,4 +54,78 @@ header a:active{
     margin-top: 30px;
     width: 100%;
     height: 30vh;
+}
+
+
+/* index's css */
+#content img{
+    width: 40vw; 
+    height: 40vh; 
+    max-width: 250px; 
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#content{
+    float: left;
+    margin-bottom: 10px;
+    text-align: justify;
+    
+}
+#hobbies{
+    float: left;
+    margin-right: 100px;
+    list-style-position: inside;
+    
+}
+#workexperience{
+    float: left;
+    margin-right: 100px;
+}
+#workexperience div ul li{
+    list-style: none;
+}
+#workexperience>#date{
+    float: left;
+    margin-right: 30px;
+}
+#workexperience>#jobtitle{
+    float: left;
+}
+#topskills{
+    float: left;
+    margin-right: 100px;
+}
+#topskills>#title{
+    float: left;
+    margin-right: 25px;
+}
+#topskills>#ratings{
+    float: left;
+}
+
+#topskills ul li{
+    list-style: none;
+}
+
+#main{
+    float: left;
+}
+
+#footer{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    
+    float: right;
+    border: 1px solid brown;
+    text-align: center;
+    background-color: crimson;
+}
+#hobbies>ul>li>ul>li{
+    margin-left: 25px;
+}
+#hobbies>ul>li>ul>li>ul>li{
+    margin-left: 40px;
 }
