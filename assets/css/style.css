@@ -45,3 +45,11 @@ header a:hover{
 header a:active{
     background-color: rgb(24, 156, 24);
 }
+.question ul li{
+    list-style-position: inside;
+    padding-left: 50px;
+}
+.question{
+    border: 1px solid black;    
+    margin-top: 3px;
+}
