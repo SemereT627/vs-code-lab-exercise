@@ -53,3 +53,8 @@ header a:active{
     border: 1px solid black;    
     margin-top: 3px;
 }
+.question img{
+    margin-top: 30px;
+    width: 100%;
+    height: 30vh;
+}

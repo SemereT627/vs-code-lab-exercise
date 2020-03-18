@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semere Talegngeta | Blog</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -14,18 +16,103 @@
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="myworks.html">My Works</a></li>    
+                <li><a href="myworks.html">My Works</a></li>
             </ul>
         </nav>
-    </header> 
+    </header>
     <h1>Question 4</h1>
-    <h1>Question 5</h1>
     <div class="question">
-
+        <h1>Size of elements by using %, em, rem and their effect on browsers</h1>
+        <em>Date: 18-March-2020</em>
+        <p> 
+            There are different units of type size.
+            <ul>
+                <li>Pixels
+                    <ul>
+                        <li>Setting font size in pixels is the
+                            best way to ensure that the type
+                            appears at the size you intended
+                            (because percentages and ems
+                            are more likely to vary if a user
+                            has changed the default size of
+                            text in their browser).
+                            Pixels are relative to the
+                            resolution of the screen, so the
+                            same type size will look larger
+                            when a screen has a resolution
+                            of 800x600 than it would when
+                            it is 1280x800.
+                        </li>
+                    </ul>
+                </li>
+                <li>Percentages
+                    <ul>
+                        <li>
+                            The default size of text in a
+                            web browser is 16 pixels. Using
+                            percentages of this amount, you
+                            can create a scale where the
+                            default text size is 12 pixels, and
+                            headings are sized in relation
+                            to this.
+                            It is possible for users to change
+                            the default size of text in their
+                            web browsers. If they have
+                            done this, the fonts will be
+                            displayed at the same scale that
+                            the designer intended, but at a
+                            larger size.
+                        </li>
+                    </ul>
+                </li>
+                <li>Ems
+                    <ul>
+                        <li>
+                            Ems allow you to change the size
+                            of text relative to the size of the
+                            text in the parent element. Since
+                            the default size of text in web
+                            browsers is 16 pixels, you can
+                            use similar rules to those shown
+                            for percentages.
+                            Because users can change
+                            the default size of text in their
+                            browser, the fonts could all
+                            appear larger (or smaller) than
+                            the designer intended.
+                        </li>
+                    </ul>
+                </li>
+                <li>Rem
+                    <ul>
+                        <li>
+                            The main problem with em units is that they are relative
+                            to the font size of their own element. As such they can cascade and cause
+                            unexpected results. The <q>rem</q> is named as <q>root em</q>. As all the sizes are referenced
+                            from the root font size, there is no need to cover the nesting cases in separate declarations.
+                        </li>
+                    </ul>
+                </li>
+                <img src="assets/image/Capture.PNG" alt="">
+            </ul>
+            By default browsers usually have a font size 16px, but this can be changed to anywhere from 9px to 72px by the user.
+        </p>
+    </div>
+    <h1>Question 5</h1>
+    
+    <div class="question">
+        <h1>What happens when changing the default browser 16px font-size to 200px?</h1>
+        <em>Date: 18-March-2020</em>
+        <p>
+            What really occurs here is that more pixels are added to the default one to increase the size of the 
+            text content. The font size property specifies the size, or height, of the font. font-size affects not only the
+            font to which it is applied, but also used to compute the value of em, rem length units. 
+        </p>
     </div>
     <h1>Question 6</h1>
     <div class="question">
         <h1>The specific changes in CSS3</h1>
+        <em>Date: 18-March-2020</em>
         <p>The specific changes in CSS3 include several new CSS properties.
             Many of these properties create visual styles that would likely associate more graphics program like
             Photoshop. Also, properties like
@@ -136,7 +223,7 @@
                     </ul>
                 </li>
 
-                <li>:checked 
+                <li>:checked
                     <ul>
                         <li>Match the element when it's checked(radio button or checkbox).</li>
                     </ul>
@@ -151,14 +238,14 @@
             </ul>
 
             There is one new combinator:
-                <ul>
-                    <li>elementA ~ elementB
-                        <ul>
-                            <li>Match when elementB follows somewhere after elementA, not neccessarily immediately.</li>
-                        </ul>
-                    </li>
-                </ul>
-            
+            <ul>
+                <li>elementA ~ elementB
+                    <ul>
+                        <li>Match when elementB follows somewhere after elementA, not neccessarily immediately.</li>
+                    </ul>
+                </li>
+            </ul>
+
             <h3>New Background Style properties</h3>
             There are also some new background properties in CSS3.
             <ul>
@@ -174,23 +261,26 @@
                 <li>
                     Background-Origin
                     <ul>
-                        <li>This property determines whether the background should be placed in the padding box, the border box, or the content box.</li>
+                        <li>This property determines whether the background should be placed in the padding box, the
+                            border box, or the content box.</li>
                     </ul>
                 </li>
 
                 <li>
                     Background-Size
                     <ul>
-                        <li>This property indicates the size of the background image. It allows you to strech smaller images to fit the page.</li>
+                        <li>This property indicates the size of the background image. It allows you to strech smaller
+                            images to fit the page.</li>
                     </ul>
                 </li>
             </ul>
         </p>
     </div>
     </div>
-    
+
 
 
 
 </body>
+
 </html>
