@@ -1,107 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semere Talegngeta | Contact</title>
     <link rel="icon" href="https://www.stpaulcollection.com/wp-content/uploads/2017/09/Favicon.png">
-    <style>
-        
-    </style>
-    <!-- <link rel="stylesheet" href="/asset/css/style.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- we are beginning -->
     <!-- Navigation -->
-    <hr>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="myworks.html">My works</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- <hr>
     <a href="index.html">Home</a>
     <a href="gallery.html">Gallery</a>
     <a href="contact.html">Contact</a>
     <a href="blog.html">Blog</a>
     <a href="myworks.html">My Works</a>
-    <hr>
-    <table>
-        <tr>
-            <td><img src="asset/image/photo_2020-03-09_23-41-11.jpg" alt="Semere Talegngeta" width="300" height=""></td>
-    <td><p><h1>Semere Talegngeta</h1>My name is Semere Talegngeta. I am expert <strong>Java</strong> developer who has been working on Java since <em>5</em>years. I am passionate about working in different types of programming language.</p></td>
-</tr>
+    <hr> -->
+    <div id="content">
+        <img src="assets/image/photo_2020-03-09_23-41-11.jpg" alt="Semere Talegngeta">
+        <p>
+            <h1>Semere Talegngeta</h1>My name is Semere Talegngeta. I am expert <strong>Java</strong> developer who has
+            been working on Java since <em>5</em>years. I am passionate about working in different types of programming
+            language.
+        </p>
+    </div>
+
     <!-- <div id = "clear"></div>
     <p>I don't want to float this text</p> -->
-</table>
-    <hr>
-    <form method="POST" action="mailto:semeretalegn627@gmail.com" enctype="utf-8">
-        
-        <!-- contact form -->
-        <table>
-            <tr>
-                <td rowspan="13"><div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://www.embedgooglemap.org"></a>
-                    </div>
-                    <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-            </tr>
-            <tr><td><h2>Leave your comment here</h2></td></tr>
-            <tr> <td><label for="fname">First Name</label></td>
-                <td>
-                    <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8" placeholder="First name">
-                </td>
-            </tr>
-            <tr>
-                <td><label for="lname">Last Name</label></td>
-                    <td><input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8" placeholder="Last name"></td>
-            </tr>
-            <tr>
-                <td><label for="gender">Gender</label></td>
-                <td>
-                    <input type="radio" name="gender" id="male">Male
-                    <input type="radio" name="gender" id="female">Female
-                </td>
-            </tr>
-            <tr><td><label for="dob">Date of Birth</label></td>
-                <td><input type="date" name="" id="dob"></td>
-            </tr>
-            <tr>
-                <td><label for="phone">Phone Number (+)</label></td>
-                <td><input type="tel" name="tel1" pattern="[0-9]{4}" placeholder="###" aria-label="3-digit area code" size = "2" id="phone">
-                    <input type="tel" name="tel2" pattern="[0-9]{3}" placeholder="###" aria-label="3-digit area code" size = "2" id="phone">
-                    <input type="tel" name="tel3" pattern="[0-9]{6}" placeholder="######" aria-label="6-digit area code" size = "3" id="phone">
-                    
-                </td>
-            </tr>
-            <tr>
-                <td><label for="email">Email</label></td>
-                <td> <input type="email" name="email" id="email"></td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="country">Country</label>
-                </td>
-                <td>
-                    <select name="country" id="country">
-                        <option >Asia</option>
-                        <option >Ethiopia</option>
+
+    <!-- contact form -->
+    <div id="contactmain">
+        <!-- the map taken from embedgooglemap.com -->
+        <div id="themap">
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="500" height="428" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=addis%20ababa%20institute%20of%20technology&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <a href="https://www.embedgooglemap.org"></a>
+                </div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 428px;
+                        width: 500px;
+                        float: left;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 428px;
+                        width: 500px;
+                        float: left;
+                    }
+                </style>
+            </div>
+        </div>
+        <div id="contactform">
+            <form method="POST" action="mailto:semeretalegn627@gmail.com" enctype="utf-8">
+                <h3>Leave your comment here</h3>
+                <div id="labels">
+
+                    <!-- labels -->
+                    <fieldset>
+                        <label for="fname">First Name</label>
+                        <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required=""
+                            title="The field must contain letters only and the length must be between 4 and 8"
+                            placeholder="First name"><br>
 
 
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="detail">What do you say?</label></td>
-                <td><textarea name="detail" id="detail" cols="30" rows="10"></textarea></td>
-            </tr>
-            <tr>
-                <td><label for="username">UserName</label></td>
-                <td><input type="text" name="username" id="username" required size="40"
-                    pattern="[a-z]{4,8}" title="4 to 8 lowercase letters" placeholder="letters must be lower case and 4-8 charachters"></td>
-            </tr>
-                
-                <tr>
-                <td><input type="submit" value="Submit"></td></tr>
-            
-        </table>        
-    </form>
-    <hr>
-    
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lastName" id="lName" pattern="[A-Za-z/d/.]{4,12}" required=""
+                            title="The field must contain letters only and the length must be between 4 and 8"
+                            placeholder="Last name"><br><br>
+
+
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" id="male">Male
+                        <input type="radio" name="gender" id="female">Female<br>
+
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="" id="dob"><br><br>
+
+                        <label for="phone">Phone Number ()</label>
+                        <input type="tel" name="tel1" pattern="[0-9]{3}" placeholder="251"
+                            aria-label="4-digit area code" size="2" id="phone">
+                        <input type="tel" name="tel2" pattern="[0-9]{3}" placeholder="953"
+                            aria-label="3-digit area code" size="2" id="phone">
+                        <input type="tel" name="tel3" pattern="[0-9]{6}" placeholder="894183"
+                            aria-label="6-digit area code" size="3" id="phone"><br>
+
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" placeholder="Your Email" id="email"><br>
+
+
+                        <label for="country">Country</label>
+                        <select name="country" id="country">
+                            <option>Asia</option>
+                            <option>Ethiopia</option>
+                        </select><br>
+
+
+                        <label for="detail" id="detail">What do you say?</label>
+                        <textarea name="detail" id="detail" rows="10"></textarea><br>
+
+
+                        <label for="username">UserName</label>
+                        <input type="text" name="username" id="username" pattern="[A-Za-z]{4,8}"
+                            title="4 to 8 lowercase letters" placeholder="Username"><br>
+
+                        <input type="submit" value="Submit">
+                    </fieldset>
+            </form>
+        </div>
+    </div>
+        <div id="footer">
+            <a href="https://www.facebook.com/semere.talegn" target="_blank">Facebook</a> |
+            <a href="https://t.me/semere627" target="_blank">Telegram</a> |
+            <a href="https://www.instagram.com/semere627/?hl=en" target="_blank">Instagram</a> |
+            <a href="https://www.linkedin.com/in/semere-talegngeta-340997195/" target="_blank">Linkedin</a>
+            <br>
+            Developed by: Semere Talegngeta &copy; 2020
+        </div>
+
+
+
 </body>
+
 </html>
