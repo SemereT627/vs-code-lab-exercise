@@ -87,7 +87,7 @@
 
                         <label for="lname">Last Name</label>
                         <input type="text" name="lastName" id="lName" pattern="[A-Za-z/d/.]{4,12}" required=""
-                            title="The field must contain letters only and the length must be between 4 and 8"
+                            title="The field must contain letters only and the length must be between 4 and 12"
                             placeholder="Last name"><br><br>
 
 
@@ -98,7 +98,7 @@
                         <label for="dob">Date of Birth</label>
                         <input type="date" name="" id="dob"><br><br>
 
-                        <label for="phone">Phone Number ()</label>
+                        <label for="phone">Phone Number(+)</label>
                         <input type="tel" name="tel1" pattern="[0-9]{3}" placeholder="251"
                             aria-label="4-digit area code" size="2" id="phone">
                         <input type="tel" name="tel2" pattern="[0-9]{3}" placeholder="953"
@@ -115,6 +115,9 @@
                         <select name="country" id="country">
                             <option>Asia</option>
                             <option>Ethiopia</option>
+                            <option>USA</option>
+                            <option>Russia</option>
+                            <option>Cameroon</option>
                         </select><br>
 
 
@@ -124,7 +127,7 @@
 
                         <label for="username">UserName</label>
                         <input type="text" name="username" id="username" pattern="[A-Za-z]{4,8}"
-                            title="4 to 8 lowercase letters" placeholder="Username"><br>
+                            title="Enter your username" placeholder="Username"><br>
 
                         <input type="submit" value="Submit">
                     </fieldset>
